@@ -1,18 +1,20 @@
 /*Style for general paragraph style*/
 p{
     color:darkblue;
-    font-size:14px;
+    font-size:18px;
 }
 
 h1{
-    font-size:24px;
+    font-size:26px;
     font-weight:bold;
     text-decoration:underline;
+    text-align:center;
 }
 
 h2{
-    font-size:18px;
+    font-size:22px;
     font-weight:bold;
+    text-align:center;
 }
 
 /*Style for all tables within the page*/
@@ -21,6 +23,7 @@ table,td,th{
     border-width:2px;
     border-color:#0044cc;
     border-collapse: collapse;
+    text-align:center;
 }
 
 /*style for special paragraph that will only present once */
