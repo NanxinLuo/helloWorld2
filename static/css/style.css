@@ -1,0 +1,41 @@
+/*Style for general paragraph style*/
+p{
+    color:darkblue;
+    font-size:14px;
+}
+
+h1{
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+h2{
+    font-size:18px;
+    font-weight:bold;
+}
+
+/*Style for all tables within the page*/
+table,td,th{
+    border-style:solid;
+    border-width:2px;
+    border-color:#0044cc;
+    border-collapse: collapse;
+}
+
+/*style for special paragraph that will only present once */
+p#special{
+    font-weight:bold;
+    font-style:italic;
+}
+
+/*style for special italic paragraph*/
+.italic{
+    font-style:italic;
+}
+
+/*style for image size*/
+img.logo{
+    height:72px;
+    width:267px;
+}

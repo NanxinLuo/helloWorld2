@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About-css</title>
+    <link type="text/css" href="{{ url_for('static', filename='/css/style.css') }}" rel = "stylesheet">
+
+</head>
+<body>
+  <!--Insert basic personal information -->
+    <h1>My Personal Bio</h1>
+    <h2>About Me</h2>
+    <p>Hi everyone, my name is <strong>Nancy</strong>. I am currently a senior at <em> University of Maryland, R.H.Smith School of Business</em>. I major in finance and information systems.</p>
+    <h2>My hobbies</h2>
+    <p>I got plenty of hobbies. I love <strong>baking, debating and travelling </strong>. My favorite beverage is <em>bubble</em>. </p>
+
+    <!--Present a list of my favorite and least favorite food -->
+    <p class="italic">Below is my favorite food:</p>
+    <ul>
+        <li>fried noodles</li>
+        <li>bubbles</li>
+        <li>iced green tea</li>
+    </ul>
+
+    <p class="italic">Below is a list of food I dislike:</p>
+    <ol>
+        <li>taro</li>
+        <li>cream</li>
+    </ol>
+
+    <p id="special">Overall, I really enjoy this semester so far. Hope I can know more about you in the future!</p>
+
+    <!--Present courses I took -->
+    <p>Below is a list of courses I took:</p>
+    <table>
+        <tr>
+            <th>Course</th>
+            <th>Semester Taken</th>
+        </tr>
+        <tr>
+            <td>BMGT495</td>
+            <td>24Sp</td>
+        </tr>
+        <tr>
+            <td>BMGT444</td>
+            <td>24Sp</td>
+        </tr>
+        <tr>
+            <td>BMGT445</td>
+            <td>24Sp</td>
+        </tr>
+    </table>
+
+      <!--Insert relevant link on both me and my school -->
+    <p>A link to the <a href="/hello">Hello Page</a>.</p>
+    <p>A link to my <a href="https://www.linkedin.com/in/nanxin-luo/" target="_blank">LinkedIn profile</a>.</p>
+    <p>Below is my school's information. </p>
+    <p>A link to <a href="https://www.testudo.umd.edu/">testudo</a>.</p>
+    <img class="logo" src="https://terpconnect.umd.edu/~jbono/bmgt407/images/smith-logo.png" alt="Smith Logo">
+
+</body>
+</html>
