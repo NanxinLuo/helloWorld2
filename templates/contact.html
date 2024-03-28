@@ -40,7 +40,7 @@
 {% else %}
 
     <!--Ask the user to fill in the contact me form -->
-<form action="{{ url_for('contact')}}" method="post">
+<form class="row g-3" action="{{ url_for('contact')}}" method="post">
   <div class="mb-3">
     <label for="first_name" class="form-label">First Name</label>
     <input type="text" class="form-control" id="first_name" name="first_name">
@@ -57,14 +57,11 @@
     <label for="message" class="form-label">Message</label>
     <input type="text" class="form-control" id="message" name="message">
   </div>
-  <div>
+
+  <div class="col-12">
      <button type="submit" class="btn btn-primary">Submit</button>
   </div>
 </form>
 {% endif %}
-</div>
 
 {% endblock %}
-
-</body>
-</html>
