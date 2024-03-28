@@ -23,6 +23,11 @@ def favorite_course():
     course_number=request.args.get('course_number')
     return render_template('favorite_course.html',subject=subject,course_number=course_number)
 
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
+
 
 @app.route('/about-css')
 def aboutcss():
