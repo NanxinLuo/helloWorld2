@@ -23,9 +23,12 @@ def favorite_course():
     course_number=request.args.get('course_number')
     return render_template('favorite_course.html',subject=subject,course_number=course_number)
 
-@app.route('/contact')
+@app.route('/contact',methods=['GET','POST'])
 def contact():
-    return render_template('contact.html')
+    if request.method == 'POST':
+        return render_template('contact.html',form_submitted=True)
+    else:
+        return render_template('contact.html')
 
 
 
